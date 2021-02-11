@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: audacity 2.4.2\n"
 "Report-Msgid-Bugs-To: audacity-translation@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-02-04 18:53+0000\n"
-"PO-Revision-Date: 2021-02-11 09:27+0800\n"
+"PO-Revision-Date: 2021-02-11 09:41+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -558,7 +558,7 @@ msgstr "%s 團隊人員"
 
 #: src/AboutDialog.cpp
 msgid "Emeritus:"
-msgstr "名譽"
+msgstr "名譽："
 
 #. i18n-hint: The program's name substitutes for %s
 #: src/AboutDialog.cpp
@@ -590,7 +590,7 @@ msgstr "%s 包含下列專案的程式碼："
 
 #: src/AboutDialog.cpp
 msgid "Special thanks:"
-msgstr "特別鳴謝"
+msgstr "特別鳴謝："
 
 #. i18n-hint: The program's name substitutes for %s
 #: src/AboutDialog.cpp
@@ -736,7 +736,7 @@ msgstr "組建類型："
 
 #: src/AboutDialog.cpp
 msgid "Compiler:"
-msgstr "編譯程式"
+msgstr "編譯器："
 
 #. i18n-hint: The directory audacity is installed into (on *nix systems)
 #: src/AboutDialog.cpp
@@ -2830,7 +2830,7 @@ msgid ""
 "[[help:Quick_Help|Quick Help]] - if not installed locally, [[https://manual."
 "audacityteam.org/quick_help.html|view online]]"
 msgstr ""
-" [[help:Quick_Help|快速說明]] - 如果沒有安裝至本機，請參閱[[https://manual."
+"[[help:Quick_Help|快速說明]] - 如果沒有安裝至本機，請參閱[[https://manual."
 "audacityteam.org/quick_help.html|網路版本]]"
 
 #. i18n-hint: Preserve '[[help:Main_Page|' as it's the name of a link.
@@ -3644,7 +3644,7 @@ msgstr ""
 
 #: src/ProjectAudioManager.cpp src/menus/TransportMenus.cpp
 msgid "The tracks selected for recording must all have the same sampling rate"
-msgstr "選擇要錄製的軌道必須具有相同的取樣頻率。"
+msgstr "選擇要錄製的軌道必須具有相同的取樣頻率"
 
 #: src/ProjectAudioManager.cpp src/menus/TransportMenus.cpp
 msgid "Mismatched Sampling Rates"
@@ -3679,7 +3679,7 @@ msgstr "錄製"
 #. recording
 #: src/ProjectAudioManager.cpp
 msgid "Dropouts"
-msgstr "dropout"
+msgstr "Dropout"
 
 #: src/ProjectAudioManager.cpp
 msgid ""
@@ -4453,7 +4453,7 @@ msgstr[0] "%d 分鐘"
 #: src/ProjectManager.cpp
 #, c-format
 msgid "%s and %s."
-msgstr "%s又 %s"
+msgstr "%s 又 %s。"
 
 #: src/ProjectSerializer.cpp
 msgid ""
@@ -5432,19 +5432,19 @@ msgstr "軌道 %d"
 #. this track is muted. (The mute button is on.)
 #: src/TrackPanelAx.cpp
 msgid " Muted"
-msgstr "靜音"
+msgstr " 靜音"
 
 #. i18n-hint: This is for screen reader software and indicates that
 #. this track is soloed. (The Solo button is on.)
 #: src/TrackPanelAx.cpp
 msgid " Soloed"
-msgstr "獨奏"
+msgstr " 獨奏"
 
 #. i18n-hint: This is for screen reader software and indicates that
 #. this track is selected.
 #: src/TrackPanelAx.cpp
 msgid " Selected"
-msgstr "已選擇"
+msgstr " 已選擇"
 
 #. i18n-hint: This is for screen reader software and indicates that
 #. this track is shown with a sync-locked icon.
@@ -5544,7 +5544,7 @@ msgstr "正在捨棄復原/重做記錄"
 #. a region of audio to be able to use this feature.
 #: src/VoiceKey.cpp
 msgid "Selection is too small to use voice key."
-msgstr "選取範圍太小，無法使用語音索引"
+msgstr "選取範圍太小，無法使用語音索引。"
 
 #: src/VoiceKey.cpp
 msgid "Calibration Results\n"
@@ -5685,7 +5685,7 @@ msgstr "臨界值："
 
 #: src/commands/CompareAudioCommand.h
 msgid "Compares a range on two tracks."
-msgstr "兩條音訊的比較範圍"
+msgstr "兩條音訊的比較範圍。"
 
 #: src/commands/Demo.cpp
 msgid "Demo"
@@ -5701,7 +5701,7 @@ msgstr "衰減係數："
 
 #: src/commands/Demo.h
 msgid "Does the demo action."
-msgstr "進行示範動作"
+msgstr "進行示範動作。"
 
 #: src/commands/DragCommand.cpp
 msgid "Drag"
@@ -5754,7 +5754,7 @@ msgstr "相對於："
 
 #: src/commands/DragCommand.h
 msgid "Drags mouse from one place to another."
-msgstr "將滑鼠由一個位置拖動到另一個位置"
+msgstr "將滑鼠由一個位置拖動到另一個位置。"
 
 #: src/commands/GetInfoCommand.cpp
 msgid "Get Info"
@@ -5870,7 +5870,7 @@ msgstr "從檔案匯入。"
 
 #: src/commands/ImportExportCommands.h
 msgid "Exports to a file."
-msgstr "匯出到檔案"
+msgstr "匯出到檔案。"
 
 #: src/commands/LoadCommands.cpp
 msgid "Builtin Commands"
@@ -5897,7 +5897,7 @@ msgstr "文字："
 
 #: src/commands/MessageCommand.h
 msgid "Echos a message."
-msgstr "重複顯示訊息"
+msgstr "重複顯示訊息。"
 
 #: src/commands/OpenSaveCommands.cpp
 msgid "Open Project2"
@@ -5968,11 +5968,11 @@ msgstr "重新載入"
 
 #: src/commands/PreferenceCommands.h
 msgid "Gets the value of a single preference."
-msgstr "取得單一偏好設定的值"
+msgstr "取得單一偏好設定的值。"
 
 #: src/commands/PreferenceCommands.h
 msgid "Sets the value of a single preference."
-msgstr "設定單一偏好設定的值"
+msgstr "設定單一偏好設定的值。"
 
 #: src/commands/ScreenshotCommand.cpp
 msgid "Screenshot"
@@ -6076,7 +6076,7 @@ msgstr "儲存檔案時發生錯誤：%s"
 
 #: src/commands/ScreenshotCommand.h
 msgid "Takes screenshots."
-msgstr "取得螢幕截圖"
+msgstr "取得螢幕截圖。"
 
 #: src/commands/SelectCommand.cpp
 msgid "Select Time"
@@ -6158,19 +6158,19 @@ msgstr "模式："
 
 #: src/commands/SelectCommand.h
 msgid "Selects a time range."
-msgstr "選擇 MIDI 檔案"
+msgstr "選擇時間範圍。"
 
 #: src/commands/SelectCommand.h
 msgid "Selects a frequency range."
-msgstr "選擇時間範圍"
+msgstr "選擇頻率範圍。"
 
 #: src/commands/SelectCommand.h
 msgid "Selects a range of tracks."
-msgstr "選擇軌道範圍"
+msgstr "選擇軌道範圍。"
 
 #: src/commands/SelectCommand.h
 msgid "Selects Audio."
-msgstr "選擇音訊"
+msgstr "選擇音訊。"
 
 #: src/commands/SetClipCommand.cpp
 msgid "Set Clip"
@@ -6206,7 +6206,7 @@ msgstr "開始："
 
 #: src/commands/SetClipCommand.h
 msgid "Sets various values for a clip."
-msgstr "設定剪輯的各種值"
+msgstr "設定剪輯的各種值。"
 
 #: src/commands/SetEnvelopeCommand.cpp
 msgid "Set Envelope"
@@ -6222,7 +6222,7 @@ msgstr "刪除"
 
 #: src/commands/SetEnvelopeCommand.h
 msgid "Sets an envelope point position."
-msgstr "設定波封點位置"
+msgstr "設定波封點位置。"
 
 #: src/commands/SetLabelCommand.cpp
 msgid "Set Label"
@@ -6242,7 +6242,7 @@ msgstr "已選擇"
 
 #: src/commands/SetLabelCommand.h
 msgid "Sets various values for a label."
-msgstr "設定標籤的各種值"
+msgstr "設定標籤的各種值。"
 
 #: src/commands/SetProjectCommand.cpp
 msgid "Set Project"
@@ -6274,11 +6274,11 @@ msgstr "高度："
 
 #: src/commands/SetProjectCommand.h
 msgid "Sets various values for a project."
-msgstr "設定專案的各種值"
+msgstr "設定專案的各種值。"
 
 #: src/commands/SetTrackInfoCommand.cpp
 msgid "Track Index:"
-msgstr "軌道索引"
+msgstr "軌道索引："
 
 #: src/commands/SetTrackInfoCommand.cpp
 msgid "Channel Index:"
@@ -6369,7 +6369,7 @@ msgstr "設定軌道"
 
 #: src/commands/SetTrackInfoCommand.h
 msgid "Sets various values for a track."
-msgstr "設定軌道的各種值"
+msgstr "設定軌道的各種值。"
 
 #: src/effects/Amplify.cpp
 msgid "Amplify"
@@ -6405,7 +6405,7 @@ msgid ""
 "specified \"control\" track reaches a particular level"
 msgstr ""
 "無論指定的「控制」軌道的音量是否達到特定電平，都將自動減少（迴避）一個或多個"
-"軌道的音量。"
+"軌道的音量"
 
 #. i18n-hint: Auto duck is the name of an effect that 'ducks' (reduces the volume)
 #. * of the audio automatically when there is sound on another track.  Not as
@@ -6727,12 +6727,12 @@ msgstr "變更拍速，維持音高不變"
 
 #: src/effects/ChangeTempo.cpp
 msgid "Beats per minute"
-msgstr "每分鐘拍數："
+msgstr "每分鐘拍數"
 
 #. i18n-hint: changing tempo "from" one value "to" another
 #: src/effects/ChangeTempo.cpp
 msgid "Beats per minute, from"
-msgstr "每分鐘拍數，從："
+msgstr "每分鐘拍數，從"
 
 #. i18n-hint: changing tempo "from" one value "to" another
 #: src/effects/ChangeTempo.cpp
@@ -6743,7 +6743,7 @@ msgstr "從(&F)"
 #. i18n-hint: changing tempo "from" one value "to" another
 #: src/effects/ChangeTempo.cpp
 msgid "Beats per minute, to"
-msgstr "每分鐘拍數，至："
+msgstr "每分鐘拍數，至"
 
 #. i18n-hint: changing tempo "from" one value "to" another
 #: src/effects/ChangeTempo.cpp
@@ -6934,7 +6934,7 @@ msgstr "一次只能量測一個軌道。"
 
 #: src/effects/Contrast.cpp
 msgid "Please select an audio track."
-msgstr "請選擇音訊軌道"
+msgstr "請選擇音訊軌道。"
 
 #: src/effects/Contrast.cpp
 msgid ""
@@ -7025,7 +7025,7 @@ msgstr "說明(&H)"
 #: src/effects/Contrast.cpp
 #, c-format
 msgid "RMS = %s."
-msgstr "均方根 = %s"
+msgstr "均方根 = %s。"
 
 #. i18n-hint: dB abbreviates decibels
 #: src/effects/Contrast.cpp
@@ -8008,7 +8008,7 @@ msgstr "圖形(&G)"
 
 #: src/effects/Equalization.cpp
 msgid "Interpolation type"
-msgstr "內插類型："
+msgstr "內插類型"
 
 #: src/effects/Equalization.cpp
 msgid "Linear Frequency Scale"
@@ -8056,7 +8056,7 @@ msgstr "顯示格線(&R)"
 
 #: src/effects/Equalization.cpp
 msgid "&Processing: "
-msgstr "正在處理(&P)："
+msgstr "處理(&P)："
 
 #: src/effects/Equalization.cpp
 msgid "D&efault"
@@ -8417,9 +8417,8 @@ msgid "&Noise type:"
 msgstr "噪音類型(&N)："
 
 #: src/effects/NoiseReduction.cpp
-#, fuzzy
 msgid "Median"
-msgstr "中等"
+msgstr "中間值"
 
 #: src/effects/NoiseReduction.cpp
 msgid "Second greatest"
@@ -9389,7 +9388,7 @@ msgstr "自動減少通行長度當音量低於特定強度"
 msgid ""
 "When truncating independently, there may only be one selected audio track in "
 "each Sync-Locked Track Group."
-msgstr "當個別截斷時，每個同步鎖定軌道組只能有一個音訊軌道被選取"
+msgstr "當個別截斷時，每個同步鎖定軌道組只能有一個音訊軌道被選取。"
 
 #: src/effects/TruncSilence.cpp
 msgid "Detect Silence"
@@ -9431,7 +9430,7 @@ msgstr "註冊 %2$d / %1$d ：%3$-64.64s"
 #: src/effects/VST/VSTEffect.cpp src/effects/ladspa/LadspaEffect.cpp
 #: src/effects/lv2/LoadLV2.cpp src/effects/vamp/LoadVamp.cpp
 msgid "Could not load the library"
-msgstr "無法載入函式庫！"
+msgstr "無法載入函式庫"
 
 #: src/effects/VST/VSTEffect.cpp
 msgid "VST Effect Options"
@@ -9628,6 +9627,9 @@ msgid ""
 "Select \"Basic\" for a basic text-only interface. Reopen the effect for this "
 "to take effect."
 msgstr ""
+"選擇「完整」，則會在音訊單元 (Audio Unit) 提供時使用圖形介面。選擇「通用」則"
+"使用系統提供的圖形介面。選擇「基本」則使用基本的純文字介面。重新啟動這個效果"
+"以生效。"
 
 #: src/effects/audiounits/AudioUnitEffect.cpp
 msgid "Select &interface"
@@ -9639,7 +9641,7 @@ msgstr "完整"
 
 #: src/effects/audiounits/AudioUnitEffect.cpp
 msgid "Generic"
-msgstr "一般"
+msgstr "通用"
 
 #: src/effects/audiounits/AudioUnitEffect.cpp
 msgid "Basic"
@@ -9902,7 +9904,7 @@ msgstr "錯誤：標頭指定了「%s」檔案，但在外掛路徑找不到\n"
 
 #: src/effects/nyquist/Nyquist.cpp
 msgid "Audio selection required."
-msgstr "必需選擇音訊"
+msgstr "需要選擇音訊。"
 
 #: src/effects/nyquist/Nyquist.cpp
 msgid "Nyquist Error"
@@ -9990,7 +9992,7 @@ msgstr "[警告：Nyquist 傳回無效的 UTF-8 字串，在此被轉換為 Lati
 #: src/effects/nyquist/Nyquist.cpp
 #, c-format
 msgid "This version of Audacity does not support Nyquist plug-in version %ld"
-msgstr "此版本的 Audacity 在編譯時未加入對 Nyquist 外掛程式版本 %ld 的支援。"
+msgstr "此版本的 Audacity 在編譯時未加入對 Nyquist 外掛程式版本 %ld 的支援"
 
 #: src/effects/nyquist/Nyquist.cpp
 msgid "Could not open file"
@@ -10024,7 +10026,7 @@ msgstr "無法判斷語言"
 #: src/effects/nyquist/Nyquist.cpp
 #, c-format
 msgid "\"%s\" is not a valid file path."
-msgstr "「%s」不是有效的檔案路徑"
+msgstr "「%s」不是有效的檔案路徑。"
 
 #. i18n-hint: Warning that there is one quotation mark rather than a pair.
 #: src/effects/nyquist/Nyquist.cpp
@@ -10093,7 +10095,7 @@ msgstr "選擇檔案"
 
 #: src/effects/nyquist/Nyquist.cpp
 msgid "Save file as"
-msgstr "另存檔案為："
+msgstr "另存檔案為"
 
 #: src/effects/nyquist/Nyquist.cpp src/export/Export.cpp
 #: src/export/ExportMultiple.cpp
@@ -10369,7 +10371,7 @@ msgstr ""
 
 #: src/export/ExportFFmpeg.cpp
 msgid "The codec reported a generic error (EPERM)"
-msgstr "編碼器回傳了一般性錯誤 (EPERM)"
+msgstr "編碼器回傳了通用錯誤 (EPERM)"
 
 #: src/export/ExportFFmpeg.cpp
 msgid "The codec reported an invalid parameter (EINVAL)"
@@ -12216,7 +12218,7 @@ msgstr "無法開啟 %s 檔案：不正確的檔案類型。"
 #: src/import/ImportMIDI.cpp
 #, c-format
 msgid "Could not open file %s."
-msgstr "無法開啟 %s 檔案"
+msgstr "無法開啟 %s 檔案。"
 
 #: src/import/ImportMP3.cpp
 msgid "MP3 files"
@@ -13561,7 +13563,7 @@ msgstr "執行效能評測(&R)..."
 
 #: src/menus/PluginMenus.cpp
 msgid "Simulate Recording Errors"
-msgstr "模擬錄音出錯"
+msgstr "模擬錄音錯誤"
 
 #: src/menus/PluginMenus.cpp
 msgid "Detect Upstream Dropouts"
@@ -14163,7 +14165,7 @@ msgstr "重新取樣軌道"
 
 #: src/menus/TrackMenus.cpp
 msgid "Please select at least one audio track and one MIDI track."
-msgstr "請選擇至少一個音訊軌道及一個 MIDI 軌道"
+msgstr "請選擇至少一個音訊軌道及一個 MIDI 軌道。"
 
 #: src/menus/TrackMenus.cpp
 #, c-format
@@ -14443,16 +14445,16 @@ msgstr "在儲存變更時無法使用預約錄製。請儲存或關閉此專案
 
 #: src/menus/TransportMenus.cpp
 msgid "Please select in a mono track."
-msgstr "請在單聲道軌道內選擇"
+msgstr "請在單聲道軌道內選擇。"
 
 #: src/menus/TransportMenus.cpp
 msgid "Please select in a stereo track or two mono tracks."
-msgstr "請在立體聲或兩個單聲道內選擇"
+msgstr "請在立體聲或兩個單聲道內選擇。"
 
 #: src/menus/TransportMenus.cpp
 #, c-format
 msgid "Please select at least %d channels."
-msgstr "請選擇至少 %d 個聲道"
+msgstr "請選擇至少 %d 個聲道。"
 
 #: src/menus/TransportMenus.cpp
 msgid "Please select a time within a clip."
@@ -16001,9 +16003,8 @@ msgid "Use &hardware to play other tracks"
 msgstr "使用硬體播放其他軌道(&H)"
 
 #: src/prefs/RecordingPrefs.cpp
-#, fuzzy
 msgid "&Software playthrough of input"
-msgstr "軟體監播(&S)"
+msgstr "軟體輸入監播(&S)"
 
 #: src/prefs/RecordingPrefs.cpp
 msgid "Record on a new track"
@@ -17228,7 +17229,7 @@ msgstr "點選以垂直放大，Shift-點選以縮小，拖動以指定一個縮
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackVZoomHandle.cpp
 #: src/tracks/timetrack/ui/TimeTrackVZoomHandle.cpp
 msgid "Right-click for menu."
-msgstr "按右鍵開啟選單"
+msgstr "按右鍵開啟選單。"
 
 #: src/tracks/playabletrack/notetrack/ui/NoteTrackVZoomHandle.cpp
 #: src/tracks/playabletrack/wavetrack/ui/SpectrumVZoomHandle.cpp
@@ -17561,7 +17562,7 @@ msgstr "按一下拖曳以調整子檢視的大小，按兩下以切成正好兩
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
 msgid "Click and drag to rearrange sub-views"
-msgstr "按一下拖曳以重排子檢視的大小。"
+msgstr "按一下拖曳以重排子檢視的大小"
 
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
 msgid "Rearrange sub-views"
@@ -18600,7 +18601,7 @@ msgstr "按 GNU General Public License version 2 釋出"
 #: plug-ins/SpectralEditShelves.ny
 #, lisp-format
 msgid "~aPlease select frequencies."
-msgstr "~a請選擇頻率"
+msgstr "~a請選擇頻率。"
 
 #: plug-ins/SpectralEditMulti.ny
 #, lisp-format
@@ -18610,8 +18611,8 @@ msgid ""
 "                       Please select a frequency range."
 msgstr ""
 "~a頻寬為零 (上下~%~\n"
-"                       頻率皆為 ~a Hz)~%~\n"
-"                       請選擇頻率範圍"
+"                       頻率皆為 ~a Hz)。~%~\n"
+"                       請選擇頻率範圍。"
 
 #: plug-ins/SpectralEditMulti.ny
 #, lisp-format
@@ -18639,17 +18640,17 @@ msgstr "增益 (dB)"
 #: plug-ins/SpectralEditParametricEQ.ny
 #, lisp-format
 msgid "~aLow frequency is undefined."
-msgstr "~a未定義低頻"
+msgstr "~a未定義低頻。"
 
 #: plug-ins/SpectralEditParametricEQ.ny
 #, lisp-format
 msgid "~aHigh frequency is undefined."
-msgstr "~a未定義高頻"
+msgstr "~a未定義高頻。"
 
 #: plug-ins/SpectralEditParametricEQ.ny
 #, lisp-format
 msgid "~aCenter frequency must be above 0 Hz."
-msgstr "~a中心頻率必須高於 0 Hz"
+msgstr "~a中心頻率必須高於 0 Hz。"
 
 #: plug-ins/SpectralEditParametricEQ.ny
 #, lisp-format
@@ -18815,15 +18816,15 @@ msgstr "錯誤~%~%"
 #: plug-ins/adjustable-fade.ny
 #, lisp-format
 msgid "~aPercentage values cannot be negative."
-msgstr "~a百分比不能是負數"
+msgstr "~a百分比不能是負數。"
 
 #: plug-ins/adjustable-fade.ny
 #, lisp-format
 msgid "~aPercentage values cannot be more than 1000 %."
-msgstr "~a百分比值不能大於 1000 %"
+msgstr "~a百分比值不能大於 1000 %。"
 
 #: plug-ins/adjustable-fade.ny
-#, fuzzy, lisp-format
+#, lisp-format
 msgid ""
 "~adB values cannot be more than +100 dB.~%~%~\n"
 "                                 Hint: 6 dB doubles the amplitude~%~\n"
@@ -18831,7 +18832,7 @@ msgid ""
 msgstr ""
 "~adB 值不能多於 +100 dB~%~%~\n"
 "                                 提示：6 dB 代表將振幅加倍~%~\n"
-"                                 \t-6 dB 代表將振幅減半"
+"                                 \t-6 dB 代表將振幅減半。"
 
 #: plug-ins/beat.ny
 msgid "Beat Finder"
@@ -18881,17 +18882,17 @@ msgstr "正在互動淡入淡出..."
 #: plug-ins/crossfadeclips.ny
 #, lisp-format
 msgid "Error.~%Invalid selection.~%More than 2 audio clips selected."
-msgstr "出錯。~%選取部分無效。~%選擇了多於 2 個音訊剪輯"
+msgstr "錯誤。~%選取部分無效。~%選擇了多於 2 個音訊剪輯。"
 
 #: plug-ins/crossfadeclips.ny
 #, lisp-format
 msgid "Error.~%Invalid selection.~%Empty space at start/ end of the selection."
-msgstr "出錯。~%選取部分無效。~%選取部分的開首或結尾有空白"
+msgstr "錯誤。~%選取部分無效。~%選取部分的開首或結尾有空白。"
 
 #: plug-ins/crossfadeclips.ny
 #, lisp-format
 msgid "Error.~%Crossfade Clips may only be applied to one track."
-msgstr "出錯。~%互動淡入淡出只能套用到一個剪輯"
+msgstr "錯誤。~%互動淡入淡出只能套用到一個剪輯。"
 
 #: plug-ins/crossfadetracks.ny
 msgid "Crossfade Tracks"
@@ -18936,7 +18937,7 @@ msgstr "交替輸入 / 輸出"
 #: plug-ins/crossfadetracks.ny
 #, lisp-format
 msgid "Error.~%Select 2 (or more) tracks to crossfade."
-msgstr "出錯。~%選擇了 2 (或更多) 的軌道進行淡入淡出"
+msgstr "錯誤。~%選擇了 2 (或更多) 的軌道進行淡入淡出。"
 
 #: plug-ins/delay.ny
 msgid "Delay"
@@ -19049,7 +19050,7 @@ msgstr "為標籤軌道加入等距標籤..."
 #. i18n-hint: Refers to the controls 'Number of labels' and 'Label interval'.
 #: plug-ins/equalabel.ny
 msgid "Create labels based on"
-msgstr "建立標籤，基於："
+msgstr "建立標籤，基於"
 
 #: plug-ins/equalabel.ny
 msgid "Number & Interval"
@@ -19155,7 +19156,7 @@ msgstr "~a~a ~a 間隔 (每 ~a 秒)~%"
 #: plug-ins/equalabel.ny
 #, lisp-format
 msgid "~aRegion length = ~a seconds."
-msgstr "~a區域長度 = ~a 秒"
+msgstr "~a區域長度 = ~a 秒。"
 
 #: plug-ins/highpass.ny
 msgid "High-Pass Filter"
@@ -19200,7 +19201,7 @@ msgstr "48 dB"
 
 #: plug-ins/highpass.ny plug-ins/lowpass.ny plug-ins/notch.ny
 msgid "Frequency must be at least 0.1 Hz."
-msgstr "頻率必須至少是 0.1 赫茲"
+msgstr "頻率必須至少是 0.1 赫茲。"
 
 #: plug-ins/highpass.ny plug-ins/lowpass.ny
 #, lisp-format
@@ -19211,7 +19212,7 @@ msgid ""
 msgstr ""
 "錯誤：~%~%頻率 (~a Hz) 對於軌道的取樣率太高。~%~%~\n"
 "                   軌道取樣率是 ~a Hz~%~\n"
-"                   頻率必須少於 ~a Hz"
+"                   頻率必須少於 ~a Hz。"
 
 #. i18n-hint: Name of effect that labels sounds
 #: plug-ins/label-sounds.ny
@@ -19242,42 +19243,36 @@ msgid "Average level"
 msgstr "平均等級"
 
 #: plug-ins/label-sounds.ny
-#, fuzzy
 msgid "RMS level"
-msgstr "溼等級"
+msgstr "RMS 等級"
 
 #: plug-ins/label-sounds.ny
-#, fuzzy
 msgid "Minimum silence duration"
-msgstr "靜音持續時間："
+msgstr "最短靜音持續時間"
 
 #: plug-ins/label-sounds.ny
-#, fuzzy
 msgid "Minimum label interval"
-msgstr "標籤間隔"
+msgstr "最短標籤間隔"
 
 #: plug-ins/label-sounds.ny
 msgid "Label type"
 msgstr "標籤類型"
 
 #: plug-ins/label-sounds.ny
-#, fuzzy
 msgid "Point before sound"
-msgstr "聯合立體聲"
+msgstr "聲音出現前的點"
 
 #: plug-ins/label-sounds.ny
-#, fuzzy
 msgid "Point after sound"
-msgstr "聯合立體聲"
+msgstr "聲音出現後的點"
 
 #: plug-ins/label-sounds.ny
 msgid "Region around sounds"
 msgstr ""
 
 #: plug-ins/label-sounds.ny
-#, fuzzy
 msgid "Region between sounds"
-msgstr "~a區域長度 = ~a 秒"
+msgstr "聲音間區域"
 
 #: plug-ins/label-sounds.ny
 msgid "Maximum leading silence"
@@ -19424,9 +19419,8 @@ msgid "Gate frequencies above (kHz)"
 msgstr "~a中心頻率必須高於 0 Hz"
 
 #: plug-ins/noisegate.ny
-#, fuzzy
 msgid "Level reduction (dB)"
-msgstr "噪音抑制"
+msgstr "等級抑制 (dB)"
 
 #: plug-ins/noisegate.ny
 #, fuzzy
@@ -19454,6 +19448,9 @@ msgid ""
 "Selection too long.\n"
 "Maximum length is ~a."
 msgstr ""
+"錯誤。\n"
+"選取範圍過長。\n"
+"最大長度為 ~a。"
 
 #: plug-ins/noisegate.ny
 #, lisp-format
@@ -19506,7 +19503,7 @@ msgid ""
 msgstr ""
 "錯誤：~%~%頻率 (~a Hz) 對於軌道的取樣率太高~%~%~\n"
 "                 軌道取樣率是 ~a Hz~%~\n"
-"                 頻率必須少於 ~a Hz"
+"                 頻率必須少於 ~a Hz。"
 
 #: plug-ins/nyquist-plug-in-installer.ny
 msgid "Nyquist Plug-in Installer"
@@ -19606,7 +19603,7 @@ msgstr "正在生成 Pluck 聲音..."
 
 #: plug-ins/pluck.ny
 msgid "MIDI values for C notes: 36, 48, 60 [middle C], 72, 84, 96."
-msgstr "C 音的 MIDI 值：36, 48, 60 [中央 C], 72, 84, 96"
+msgstr "C 音的 MIDI 值：36, 48, 60 [中央 C], 72, 84, 96。"
 
 #: plug-ins/pluck.ny
 msgid "David R.Sky"
@@ -19921,22 +19918,22 @@ msgstr ""
 #: plug-ins/sample-data-export.ny
 #, lisp-format
 msgid "~a linear, ~a dB."
-msgstr "~a 線性，~a dB"
+msgstr "~a 線性，~a dB。"
 
 #: plug-ins/sample-data-export.ny
 #, lisp-format
 msgid "Left: ~a lin, ~a dB | Right: ~a lin, ~a dB."
-msgstr "左聲道：~a 線性，~a dB | 右聲道：~a 線性，~a dB"
+msgstr "左聲道：~a 線性，~a dB | 右聲道：~a 線性，~a dB。"
 
 #: plug-ins/sample-data-export.ny
 #, lisp-format
 msgid "~a samples."
-msgstr "~a 個取樣"
+msgstr "~a 個取樣。"
 
 #: plug-ins/sample-data-export.ny
 #, lisp-format
 msgid "~a seconds."
-msgstr "~a 秒"
+msgstr "~a 秒。"
 
 #: plug-ins/sample-data-export.ny
 msgid "Audio data analysis:"
@@ -19945,13 +19942,13 @@ msgstr "音訊資料分析："
 #: plug-ins/sample-data-export.ny
 #, lisp-format
 msgid "<b>Sample Rate:</b> &nbsp;&nbsp;~a Hz."
-msgstr "<b>取樣率：</b> &nbsp;&nbsp;~a Hz"
+msgstr "<b>取樣率：</b> &nbsp;&nbsp;~a Hz。"
 
 #. i18n-hint: abbreviates "decibels"
 #: plug-ins/sample-data-export.ny
 #, lisp-format
 msgid "<b>Peak Amplitude:</b> &nbsp;&nbsp;~a (linear) &nbsp;&nbsp;~a dB."
-msgstr "<b>振幅峰值：</b> &nbsp;&nbsp;~a (線性) &nbsp;&nbsp;~a dB"
+msgstr "<b>振幅峰值：</b> &nbsp;&nbsp;~a (線性) &nbsp;&nbsp;~a dB。"
 
 #. i18n-hint: RMS abbreviates root-mean-square, a method of averaging a signal; there also "weighted" versions of it but this isn't that
 #: plug-ins/sample-data-export.ny
@@ -19968,12 +19965,12 @@ msgstr "<b>直流偏移：</b> &nbsp;&nbsp;~a"
 #: plug-ins/sample-data-export.ny
 #, lisp-format
 msgid "~a linear, &nbsp;&nbsp;~a dB."
-msgstr "~a 線性，&nbsp;&nbsp;~a dB"
+msgstr "~a 線性，&nbsp;&nbsp;~a dB。"
 
 #: plug-ins/sample-data-export.ny
 #, lisp-format
 msgid "Left: ~a lin, ~a dB | Right: ~a linear, &nbsp;&nbsp;~a dB."
-msgstr "左：~a 線性，~a dB | 右：~a 線性，&nbsp;&nbsp;~a dB"
+msgstr "左：~a 線性，~a dB | 右：~a 線性，&nbsp;&nbsp;~a dB。"
 
 #: plug-ins/sample-data-export.ny
 msgid "sample data"
@@ -20018,6 +20015,9 @@ msgid ""
 "<a href=\"~a\">Audacity</a> by Steve\n"
 "Daulton"
 msgstr ""
+"使用 Steve Daulton 所製作之\n"
+"適用於 <a href=“~a”>Audacity</a> 的\n"
+"<span>範例資料匯出</span> 產出"
 
 #: plug-ins/sample-data-export.ny
 msgid "linear"
@@ -20098,7 +20098,7 @@ msgid ""
 msgstr ""
 "錯誤~%~\n"
 "                        無法開啟「~a」~%~\n"
-"                        請檢查清楚該檔案是否存在"
+"                        請檢查檔案是否存在。"
 
 #: plug-ins/sample-data-import.ny
 #, lisp-format
@@ -20128,9 +20128,8 @@ msgid "Error.~%Unable to open file"
 msgstr "錯誤。~%無法開啟檔案"
 
 #: plug-ins/spectral-delete.ny
-#, fuzzy
 msgid "Spectral Delete"
-msgstr "頻譜選擇"
+msgstr "頻譜刪除"
 
 #: plug-ins/spectral-delete.ny
 #, lisp-format
@@ -20346,7 +20345,7 @@ msgstr "Radar Needles 頻率 (赫茲)"
 #: plug-ins/vocoder.ny
 #, lisp-format
 msgid "Error.~%Stereo track required."
-msgstr "錯誤。~%必須是立體聲"
+msgstr "錯誤。~%必須是立體聲。"
 
 #~ msgid ""
 #~ "One or more external audio files could not be found.\n"
